@@ -9,7 +9,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	size_t i,j;
+	size_t i, j;
 	int temp; /* Temporary variable */
 
 	if (array == NULL || size < 2)
@@ -22,8 +22,8 @@ void bubble_sort(int *array, size_t size)
 			* if the number in the left is bigger than number
 			* in the right swap positions
 			*/
-		if(array[j] > array[j + 1])
-		{	
+		if (array[j] > array[j + 1])
+		{
 			/* Swap positions */
 			temp = array[j];
 			array[j] = array[j + 1];
@@ -31,7 +31,7 @@ void bubble_sort(int *array, size_t size)
 			print_array(array, size);
 		}
 	}
-	
+
 	}
 
 }
