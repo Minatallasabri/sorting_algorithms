@@ -32,7 +32,7 @@ void swap_values(int *a, int *b)
 
 int lomuto_logic(int *array, size_t size, int start, int end)
 {
-	int *pivot, order, scan ;
+	int *pivot, order, scan;
 
 	pivot = array + end;
 	for (order =  scan =  start; scan < end; scan++)
