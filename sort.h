@@ -30,5 +30,12 @@ void print_list(const listint_t *list);
 
 void selection_sort(int *array, size_t size);
 
+void swap_values(int *a, int *b);
 
- #endif
+int lomuto_logic(int *array, size_t size, int start, int end);
+
+void recursive_sort(int *array, size_t size, int start, int end);
+
+void quick_sort(int *array, size_t size);
+
+#endif
