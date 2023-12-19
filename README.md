@@ -1,4 +1,4 @@
-# C - Sorting algorithms & Big O :
+# C - Sorting algorithms & Big O 
 
 Sorting algorithms are used to arrange a collection of elements in a particular order. This order can be ascending (smallest to largest), descending (largest to smallest), or based on a custom comparison function.Some common sorting algorithms include:
 
