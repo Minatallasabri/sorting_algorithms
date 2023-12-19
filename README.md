@@ -14,6 +14,11 @@ Big O notation is a mathematical way to describe the upper bound of an algorithm
  * `O(n^2)`.
  * `O(n log n`.
  * `O(n)`.
+ * `O(1)`.
+ * `O(n log n`.
+ * `O(log n)`.
+ * O(2 ^ n)`
+ * O(n!)`
 
 
 ## Header File :file_folder:
